@@ -1,0 +1,14 @@
+<h1>Pages#score</h1>
+<p>Find me in app/views/pages/score.html.erb</p>
+
+
+<h3>your result</h3>
+
+
+
+<p>you found it in <%= @final_result[:time] %> </p>
+<p>transalation : <%= @final_result[:translation] %> </p>
+<p>your score <%= @final_result[:score] %> </p>
+<p>message :<%= @final_result[:message] %> </p>
+
+<%= link_to "game page", game_path %>

@@ -1,0 +1,9 @@
+<h1>jouez ici</h1>
+
+<p> <%= @grid_hidden %> </p>
+
+<form action="/score">
+  <input type="text" name="best_word" place_holder="tapez ici">
+  <input type="hidden" name="grid" value="<%= @grid_hidden %>">
+  <input type="hidden" name="time_stamp" value="<%= @time_stamp %>">
+</form>
